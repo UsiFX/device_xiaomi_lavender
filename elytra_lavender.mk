@@ -12,7 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common elytra stuff
 $(call inherit-product, vendor/elytra/config/common_full_phone.mk)
 
+# elytra-ify
 TARGET_BOOT_ANIMATION_RES := 1080
+USE_GAPPS := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
