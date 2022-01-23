@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_lavender.mk
+    $(LOCAL_DIR)/elytra_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_lavender-user \
-    revengeos_lavender-userdebug \
-    revengeos_lavender-eng
+    elytra_lavender-user \
+    elytra_lavender-userdebug \
+    elytra_lavender-eng
