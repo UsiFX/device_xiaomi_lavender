@@ -15,6 +15,7 @@ $(call inherit-product, vendor/elytra/config/common_full_phone.mk)
 # elytra-ify
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_GAPPS := true
+USE_PIXEL_CHARGER := true
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
