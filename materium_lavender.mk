@@ -12,6 +12,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit some common materium stuff
 $(call inherit-product, vendor/materium/config/common.mk)
 
+# Materium Flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USES_BLUR := true
+
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
