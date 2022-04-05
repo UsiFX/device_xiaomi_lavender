@@ -15,6 +15,18 @@ $(call inherit-product, vendor/dot/config/common.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Charging Animation
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
+# Gapps
+WITH_GAPPS := true
+
+# Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Blur
+TARGET_SUPPORTS_BLUR := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
